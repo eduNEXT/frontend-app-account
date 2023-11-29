@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import {
   AlertModal,
-  Button, Form, ActionRow, FormControl, FormControlFeedback, FormLabel,
+  Button, Form, ActionRow,
 } from '@edx/paragon';
 import { injectIntl, intlShape } from '@edx/frontend-platform/i18n';
 import { faExclamationCircle, faExclamationTriangle } from '@fortawesome/free-solid-svg-icons';
