@@ -36,6 +36,7 @@ Array [
       <div
         className="pgn__modal-backdrop"
         onClick={[MockFunction]}
+        onKeyDown={[MockFunction]}
       />
       <div
         aria-label="Are you sure?"
@@ -129,7 +130,10 @@ Array [
                 </div>
               </div>
               <div
-                className="form-group"
+                className="pgn__form-group"
+                for="passwordFieldId"
+                invalid={true}
+                invalidMessage="A password is required"
               >
                 <label
                   className="d-block"
@@ -137,21 +141,19 @@ Array [
                 >
                   If you still wish to continue and delete your account, please enter your account password:
                 </label>
-                <input
-                  aria-describedby="passwordFieldId-invalid-feedback"
-                  className="form-control is-invalid"
-                  id="passwordFieldId"
-                  name="password"
-                  onChange={[MockFunction]}
-                  type="password"
-                  value="fluffy bunnies"
-                />
-                <strong
-                  className="invalid-feedback"
-                  id="passwordFieldId-invalid-feedback"
+                <div
+                  className="pgn__form-control-decorator-group"
                 >
-                  A password is required
-                </strong>
+                  <input
+                    className="has-value form-control"
+                    id="form-field2"
+                    name="password"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    type="password"
+                    value="fluffy bunnies"
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -234,6 +236,7 @@ Array [
       <div
         className="pgn__modal-backdrop"
         onClick={[MockFunction]}
+        onKeyDown={[MockFunction]}
       />
       <div
         aria-label="Are you sure?"
@@ -294,7 +297,10 @@ Array [
                 </div>
               </div>
               <div
-                className="form-group"
+                className="pgn__form-group"
+                for="passwordFieldId"
+                invalid={false}
+                invalidMessage="Unable to delete account"
               >
                 <label
                   className="d-block"
@@ -302,21 +308,19 @@ Array [
                 >
                   If you still wish to continue and delete your account, please enter your account password:
                 </label>
-                <input
-                  aria-describedby=""
-                  className="form-control"
-                  id="passwordFieldId"
-                  name="password"
-                  onChange={[MockFunction]}
-                  type="password"
-                  value="fluffy bunnies"
-                />
-                <strong
-                  className="invalid-feedback"
-                  id="passwordFieldId-invalid-feedback"
+                <div
+                  className="pgn__form-control-decorator-group"
                 >
-                  Unable to delete account
-                </strong>
+                  <input
+                    className="has-value form-control"
+                    id="form-field1"
+                    name="password"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    type="password"
+                    value="fluffy bunnies"
+                  />
+                </div>
               </div>
             </div>
           </div>
