@@ -1,6 +1,6 @@
 export TRANSIFEX_RESOURCE = frontend-app-account
 transifex_resource = frontend-app-account
-transifex_langs = "ar,de,es_419,fa_IR,fr,fr_CA,hi,it,pt,ru,uk,zh_CN,it_IT,pt_PT,de_DE"
+transifex_langs = "ar,de,es_419,fa_IR,fr,fr_CA,hi,it,pt,ru,uk,zh_CN,it_IT,pt_PT,de_DE,es_ES"
 
 intl_imports = ./node_modules/.bin/intl-imports.js
 transifex_utils = ./node_modules/.bin/transifex-utils.js
