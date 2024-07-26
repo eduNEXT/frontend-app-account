@@ -30,7 +30,7 @@
   "dependencies": {
     "@edx/brand": "npm:@edx/brand-openedx@1.2.0",
     "@edx/frontend-component-footer": "npm:@edunext/frontend-component-footer@12.2.1-alpha.2",
-    "@edx/frontend-component-header": "npm:@edunext/frontend-component-header@4.6.0-alpha.2",
+    "@edx/frontend-component-header": "npm:@edunext/frontend-component-header@4.6.0-alpha.3-upm",
     "@edx/frontend-platform": "npm:@edunext/frontend-platform@5.5.4-alpha.4",
     "@edx/paragon": "npm:@openedx/paragon@22.0.0-alpha.25",
     "@fortawesome/fontawesome-svg-core": "1.2.36",
