@@ -2,8 +2,12 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 import {
-AlertModal, Button, Form, ActionRow,
+  AlertModal,
+  Button,
+  Form,
+  ActionRow,
 } from '@openedx/paragon';
+
 import { injectIntl, intlShape } from '@edx/frontend-platform/i18n';
 import { faExclamationCircle, faExclamationTriangle } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
