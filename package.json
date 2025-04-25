@@ -29,7 +29,7 @@
   ],
   "dependencies": {
     "@edx/brand": "npm:@openedx/brand-openedx@^1.2.2",
-    "@edx/frontend-component-header": "npm:@edunext/frontend-component-header@5.0.2-alpha.1",
+    "@edx/frontend-component-header": "git+https://github.com/eduNEXT/frontend-component-header-edunext.git#bc/css-variables-5.0.2-utec.1",
     "@edx/frontend-platform": "npm:@edunext/frontend-platform@7.1.2-alpha.1",
     "@edx/openedx-atlas": "^0.6.0",
     "@fortawesome/fontawesome-svg-core": "1.2.36",
