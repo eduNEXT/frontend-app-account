@@ -10,18 +10,8 @@ const siteLanguageList = [
     released: true,
   },
   {
-    code: 'es-419',
-    name: 'Español (Latinoamérica)',
-    released: true,
-  },
-  {
     code: 'fa-ir',
     name: 'فارسی',
-    released: true,
-  },
-  {
-    code: 'fr',
-    name: 'Français',
     released: true,
   },
   {
@@ -91,7 +81,7 @@ const siteLanguageList = [
   },
   {
     code: 'fr-ca',
-    name: 'French (CA)',
+    name: 'Français',
     released: true,
   },
   {
@@ -111,7 +101,7 @@ const siteLanguageList = [
   },
   {
     code: 'es-es',
-    name: 'Español (España)',
+    name: 'Español',
     released: true,
   },
   {
