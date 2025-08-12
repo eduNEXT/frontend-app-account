@@ -621,11 +621,11 @@ class AccountSettingsPage extends React.Component {
               messages['account.settings.field.email.help.text'],
               { siteName: getConfig().SITE_NAME },
             )}
-            isEditable={this.isEditable('email')}
+            isEditable={false}
             {...editableFieldProps}
           />
           {this.renderSecondaryEmailField(editableFieldProps)}
-          <ResetPassword email={this.props.formValues.email} />
+          {/* <ResetPassword email={this.props.formValues.email} /> */}
           {(!getConfig().ENABLE_COPPA_COMPLIANCE)
             && (
             <EditableSelectField
@@ -787,7 +787,7 @@ class AccountSettingsPage extends React.Component {
           />
         </div>
 
-        <div className="account-section pt-3 mb-5" id="linked-accounts" ref={this.navLinkRefs['#linked-accounts']}>
+        {/* <div className="account-section pt-3 mb-5" id="linked-accounts" ref={this.navLinkRefs['#linked-accounts']}>
           <h2 className="section-heading h4 mb-3">{this.props.intl.formatMessage(messages['account.settings.section.linked.accounts'])}</h2>
           <p>
             {this.props.intl.formatMessage(
@@ -796,7 +796,7 @@ class AccountSettingsPage extends React.Component {
             )}
           </p>
           <ThirdPartyAuth />
-        </div>
+        </div> */}
 
         {getConfig().ENABLE_ACCOUNT_DELETION
           && (
