@@ -80,6 +80,8 @@ updateUserProfile({ extendedProfile: [{ fieldName: 'favorite_color', fieldValue:
 - **Type**: Object
 - **Description**: Provides access to reusable form components that are consistent with the rest of the account page styling and behavior. These components follow the platform's design system and include proper validation and accessibility features.
 - **Usage**: Use these components in your custom fields implementation to maintain UI consistency. Available components include `SwitchContent` for managing different UI states.
+- **Available components**:
+  - `SwitchContent`: for managing different UI states. When the case it renders is one of your fields, an element with a `name` prop such as `<TextField name="favorite_color" value={value} />`, it renders it in the [`org.openedx.frontend.account.settings_field.v1`](../AccountSettingsFieldSlot/) slot, with `name` and `value` as the slot's `fieldName` and `value`. The plugins registered there then apply to your fields as they do to the page's own fields. Other cases, such as a field's editing and default views, render as usual.
 
 ### `refreshUserProfile`
 - **Type**: Function
